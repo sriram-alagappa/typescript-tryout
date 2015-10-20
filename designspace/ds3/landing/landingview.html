@@ -1,0 +1,13 @@
+<div ng-controller="LandingViewCtrl as vm">
+	
+	{{vm.title}}
+	
+	<table>
+		<tr ng-repeat="project in vm.projects">
+			<td> {{project.projectId}} </td>
+			<td> {{project.projectName}} </td>
+			<td> {{project.description}} </td>
+		</tr>	
+	</table>
+	
+</div>

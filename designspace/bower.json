@@ -1,0 +1,22 @@
+{
+  "name": "designspace",
+  "description": "",
+  "main": "index.js",
+  "authors": [
+    "sriam alagappa"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/sriram-alagappa/typescript-tryout",
+  "moduleType": [],
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.7"
+  }
+}
