@@ -1,7 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
 		<title> Design space 3</title>
+		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css"></link>
+		<script src="bower_components/bootstrap/dist/js/bootstrap.js"> </script>
 	</head>
 	<body ng-app="ds3">
 		
@@ -29,7 +33,20 @@
 		
 		<!-- UI router template -->
 		
-		<div ui-view></div>
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+				<a class="navbar-brand">Design Space</a>
+				<div class="navbar-header">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</div>
+			</div>
+		</nav>
+		
+		<div class="container">
+			<div ui-view></div>
+		</div>
+		
 		
 		<script src="./bower_components/angular/angular.js"></script>
 		<script src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>

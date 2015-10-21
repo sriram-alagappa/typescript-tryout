@@ -13,5 +13,5 @@ tsd install angular-resource --resolve --save
 http-server
 
 bower install angular-ui-router --save
-
+bower install bootstrap --save
 
