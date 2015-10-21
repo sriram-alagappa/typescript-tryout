@@ -1,1 +1,3 @@
-angular.module("ds3",[]);
+module ds3{
+	angular.module("ds3",[]);
+}

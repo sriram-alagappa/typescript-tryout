@@ -1,3 +1,5 @@
+module ds3.productlist {
+	
 interface IProjectListModel {
 	title:string;
 	projects: any[];
@@ -14,7 +16,7 @@ class LandingViewCtrl implements IProjectListModel{
 			{
 				"projectId":1,
 				"projectName":"Thank you card",
-				"description": "make it now thanks you card"
+				"description": "make it now thanks you card2"
 			},
 			{
 				"projectId":2,
@@ -29,3 +31,5 @@ class LandingViewCtrl implements IProjectListModel{
 angular
 	.module('ds3')
 	.controller('LandingViewCtrl',LandingViewCtrl);
+	
+}

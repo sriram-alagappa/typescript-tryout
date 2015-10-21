@@ -2,3 +2,4 @@ node_modules
 bower_components
 tsd.json
 typings
+ds3/**/*.js

@@ -9,6 +9,6 @@ bower init
 npm install -g http-server
 bower install angularjs --save
 tsd install angular --resolve --save
-
+tsd install angular-resource --resolve --save
 http-server
 
