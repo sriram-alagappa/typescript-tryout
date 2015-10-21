@@ -12,3 +12,6 @@ tsd install angular --resolve --save
 tsd install angular-resource --resolve --save
 http-server
 
+bower install angular-ui-router --save
+
+
