@@ -1,0 +1,55 @@
+<html>
+<head>
+	<script type="text/javascript" src="./bower_components/angular/angular.js"></script>
+	<script type="text/javascript" src="./bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+
+	<script type="text/javascript">
+
+		var app = angular.module("appmodule",[]);
+
+		var self = this;
+
+		app.controller("ctrlHome",ctrlHome);
+
+		function ctrlHome($scope){
+
+			$scope.contacts = ["sriram","chris S","chirs L"];
+
+			$scope.add = function(name){
+				$scope.contacts.push(name);
+			}
+
+		}
+
+		function onBtnClick(){
+			self.app.$rootscope.hello = "sree";
+		}
+
+	</script>
+
+</head>
+<body ng-app="appmodule">
+
+
+<h1> test app </h1>
+
+<div ng-controller="ctrlHome">
+
+	<li ng-repeat="contact in contacts">
+		{{contact}}
+	</li>
+
+	<input type="text" ng-model="name"></input>
+	<button ng-click="add(name)"> add new </button>
+
+</div>
+
+
+
+<button onclick="onBtnClick()">click me</button>
+
+
+</body>
+
+
+</html>
